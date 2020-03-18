@@ -1,0 +1,29 @@
+/**
+ * =========================================
+ * Responsive Styles
+ * =========================================
+ */
+
+@import 'mixins';
+
+// Desktop
+@media screen and (max-width: 895px){ 
+
+    .mobile-nav-container{  display: block !important; }
+
+    .nav-link-mobile-container{ @include transition; display: block !important; }
+
+    .navigation-container{ height: 50px !important; }
+   
+} // END: Desktop
+
+// Mobile
+@media (max-device-width: 519px) {  
+    
+} // END: Mobile
+
+
+
+
+
+
