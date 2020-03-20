@@ -1,8 +1,9 @@
 <!-- HTTP -->
-  <div class="full product-card bg-dblue pad30">
+  <div class="full product-card rest relative pad30">
+  <div class="bgs"></div>
     
     <h2 class="h3 text-white">
-      SolidStack.<span class="text-teal">Rest</span>
+      SolidStack.<span class="text-pink">Rest</span>
     </h2>
 
     <p class="text-white mar10-top mar10-bot">

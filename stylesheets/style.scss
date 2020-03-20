@@ -79,6 +79,7 @@
  .clear{ clear: both; }
  .left{  float: left; }
  .right{ float: right; }
+ .relative{ position: relative; }
 
  .ol-disc{ 
    list-style: disc;
@@ -267,6 +268,67 @@
   * Elements
   * =========================================
   */ 
+
+  .product-card{
+    @include transition;
+    overflow: hidden; 
+
+    .bgs{
+      @include transition;
+      position: absolute; 
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../img/solidstack-s.svg);
+      background-size: 200% 200%; 
+      background-position: 50% 50%;
+      opacity: .03; 
+    }
+
+    &:hover{ 
+      @include transition;
+
+      .bgs{
+        @include transition;
+        background-size: 225% 225%;
+      }
+    }
+  }
+
+  .pc-content{ position: relative; z-index: 10; }
+
+  .http{
+    background-size: 200% 100% !important;
+    background: rgb(18,18,56);
+    background: linear-gradient(15deg, rgba(18,18,56,1) 0%, rgba(38,36,99,1) 50%, rgba(0,173,201,1) 100%);
+    
+    &:hover{ background-position:50% 0%; }
+  }
+
+  .rest{
+    background-size: 200% 100% !important;
+    background: rgb(18,18,56);
+    background: linear-gradient(45deg, rgba(18,18,56,1) 0%, rgba(38,36,99,1) 50%, rgba(255,88,134,1) 100%);
+    
+    &:hover{ background-position:50% 0%; }
+  }
+
+  .coroutines{
+    background-size: 200% 100% !important;
+    background: rgb(18,18,56);
+    background: linear-gradient(45deg, rgba(18,18,56,1) 0%, rgba(38,36,99,1) 50%, rgba(255,145,105,1) 100%);
+    
+    &:hover{ background-position:50% 0%; }
+  }
+
+  .ioc{
+    background-size: 200% 100% !important;
+    background: rgb(18,18,56);
+    background: linear-gradient(45deg, rgba(18,18,56,1) 0%, rgba(38,36,99,1) 45%, rgba(105,255,175,1) 100%);
+    
+    &:hover{ background-position:50% 0%; }
+  }
 
 /* END: Elements */
 
