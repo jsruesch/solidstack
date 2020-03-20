@@ -935,11 +935,56 @@ h1 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   overflow: hidden; }
+  .product-card .bgs-outline {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-outline.svg);
+    background-size: 300% 300%;
+    background-position: 50% 50%;
+    opacity: .05; }
   .product-card:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease; }
+    .product-card:hover .bgs-outline {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      background-size: 500% 500%; }
+
+.http:hover {
+  box-shadow: inset 0 0 0 4px #00B0CB; }
+
+.rest:hover {
+  box-shadow: inset 0 0 0 4px #ff5886; }
+
+.coroutines:hover {
+  box-shadow: inset 0 0 0 4px #ff9169; }
+
+.ioc:hover {
+  box-shadow: inset 0 0 0 4px #69ffaf; }
+
+.http:hover {
+  box-shadow: inset 0 0 0 4px #00B0CB; }
+
+.http:hover {
+  box-shadow: inset 0 0 0 4px #00B0CB; }
+
+.http:hover {
+  box-shadow: inset 0 0 0 4px #00B0CB; }
+
+.http:hover {
+  box-shadow: inset 0 0 0 4px #00B0CB; }
 
 .pc-content {
   position: relative;

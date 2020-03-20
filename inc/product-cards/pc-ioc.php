@@ -1,6 +1,6 @@
 <!-- Ioc -->
   <div class="full product-card ioc relative pad60">
-    <!-- <div class="bgs"></div> -->
+  <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
         SolidStack.<span class="text-greena text-exbold">Ioc</span>

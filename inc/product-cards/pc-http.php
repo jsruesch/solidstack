@@ -1,6 +1,6 @@
 <!-- HTTP -->
   <div class="full product-card http relative pad60">
-    <!-- <div class="bgs"></div> -->
+    <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
           SolidStack.<span class="text-teal text-exbold">Http</span>

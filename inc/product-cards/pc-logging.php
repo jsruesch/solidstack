@@ -1,7 +1,8 @@
 <!-- HTTP -->
-  <div class="full product-card bg-dblue pad60">
-    
-    <p class="card-title text-white">
+  <div class="full product-card bg-dblue relative pad60">
+    <div class="bgs-outline"></div>
+    <div class="pc-content">
+      <p class="card-title text-white">
       SolidStack.<span class="text-teal text-exbold">Logging</span>
     </p>
 
@@ -23,4 +24,5 @@
         </p>
       </a>
     </div><!-- CLOSE: Buttons -->
+</div>
   </div><!-- END: HTTP -->

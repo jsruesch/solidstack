@@ -1,6 +1,6 @@
 <!-- Rest -->
   <div class="full product-card rest relative pad60">
-    <!-- <div class="bgs"></div> -->
+    <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
         SolidStack.<span class="text-pink text-exbold">Rest</span>
