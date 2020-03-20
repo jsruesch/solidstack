@@ -1,9 +1,9 @@
 <!-- HTTP -->
   <div class="full product-card bg-dblue pad30">
     
-    <h2 class="h3 text-white">
-      SolidStack.<span class="text-teal">Logging</span>
-    </h2>
+    <p class="card-title text-white">
+      SolidStack.<span class="text-teal text-exbold">Logging</span>
+    </p>
 
     <p class="text-white mar10-top mar10-bot">
       Logging library with support for multiple sources and granular control using namespace tags. 
@@ -11,16 +11,16 @@
 
   <!-- Buttons -->
     <div class="full grid-2col ggap-10">
-        <a href="#0" class="full pad10 bg-teal">
-          <p class="text-white text-exbold text-center">
-            <i class="fab fa-github"></i> Clone on Github
-          </p>
-        </a>
+      <a href="#0" class="full btn-a">
+        <p class="text-white text-center">
+          <i class="fab fa-github text-white"></i> Clone on Github
+        </p>
+      </a>
 
-        <a href="#0" class="full pad10 bg-teal">
-          <p class="text-white text-exbold text-center">
-            Install via UPM
-          </p>
-        </a>
+      <a href="#0" class="full btn-a">
+        <p class="text-center">
+          Install via UPM
+        </p>
+      </a>
     </div><!-- CLOSE: Buttons -->
   </div><!-- END: HTTP -->

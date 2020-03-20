@@ -14,11 +14,12 @@
         </section><!-- END: Hero -->
 
 <!-- Main Content -->
-    <div class="wrapper">
-        <div class="wrapper-content">
+    <div class="wrapper relative bg-ddblue">
+        <div class="bgs-outline"></div>
+        <div class="wrapper-content pad60">
 
         <!-- Components -->
-            <section class="bg-teal pad30">
+            <section>
             <!-- Section Header -->
                 <div class="full mar20-bot">
                     <h1 class="text-white text-center">SolidStack Components</h1>

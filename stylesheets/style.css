@@ -29,6 +29,9 @@
 .text-dblue {
   color: #09093b !important; }
 
+.text-ddblue {
+  color: #00021E !important; }
+
 .text-teal {
   color: #00B0CB !important; }
 
@@ -49,6 +52,9 @@
 
 .bg-dblue {
   background: #09093b !important; }
+
+.bg-ddblue {
+  background: #00021E !important; }
 
 .bg-teal {
   background: #00B0CB !important; }
@@ -93,6 +99,9 @@
 .text-dblue {
   color: #09093b !important; }
 
+.text-ddblue {
+  color: #00021E !important; }
+
 .text-teal {
   color: #00B0CB !important; }
 
@@ -113,6 +122,9 @@
 
 .bg-dblue {
   background: #09093b !important; }
+
+.bg-ddblue {
+  background: #00021E !important; }
 
 .bg-teal {
   background: #00B0CB !important; }
@@ -712,8 +724,9 @@ a {
   text-decoration: none; }
 
 p {
-  font-size: 1.1rem;
-  letter-spacing: .085rem; }
+  font-size: 1.2rem;
+  letter-spacing: .085rem;
+  font-weight: 300; }
 
 ul {
   list-style: none; }
@@ -892,41 +905,52 @@ h1 {
  * Elements
  * =========================================
  */
+.bgs {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/solidstack-s.svg);
+  background-size: 200% 200%;
+  background-position: 50% 50%;
+  opacity: .04; }
+
+.bgs-outline {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/solidstack-s-outline.svg);
+  background-size: 200% 200%;
+  background-position: 50% 50%;
+  opacity: .04; }
+
 .product-card {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   overflow: hidden; }
-  .product-card .bgs {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(../img/solidstack-s.svg);
-    background-size: 200% 200%;
-    background-position: 50% 50%;
-    opacity: .03; }
   .product-card:hover {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease; }
-    .product-card:hover .bgs {
-      -webkit-transition: all 0.3s ease;
-      -moz-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      background-size: 225% 225%; }
 
 .pc-content {
   position: relative;
   z-index: 10; }
+
+.card-title {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 200;
+  letter-spacing: .15rem;
+  line-height: 1.75rem; }
 
 .http {
   background-size: 200% 100% !important;
@@ -955,6 +979,34 @@ h1 {
   background: linear-gradient(45deg, #121238 0%, #262463 45%, #69ffaf 100%); }
   .ioc:hover {
     background-position: 50% 0%; }
+
+.btn-a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: #00021E; }
+  .btn-a p {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: #00B0CB;
+    font-weight: 400; }
+  .btn-a:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #00B0CB; }
+    .btn-a:hover p {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      color: white; }
 
 /* END: Elements */
 /**

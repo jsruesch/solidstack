@@ -44,8 +44,9 @@
   }
 
  p{ 
-   font-size: 1.1rem; 
+   font-size: 1.2rem; 
    letter-spacing: .085rem;
+   font-weight: 300;
   }
 
  ul{ list-style:none; }
@@ -268,35 +269,52 @@
   * Elements
   * =========================================
   */ 
+  .bgs{
+    position: absolute; 
+    z-index: 0; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s.svg);
+    background-size: 200% 200%; 
+    background-position: 50% 50%;
+    opacity: .04; 
+  }
+  .bgs-outline{
+    position: absolute; 
+    z-index: 0; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-outline.svg);
+    background-size: 200% 200%; 
+    background-position: 50% 50%;
+    opacity: .04; 
+  }
 
   .product-card{
     @include transition;
     overflow: hidden; 
 
-    .bgs{
-      @include transition;
-      position: absolute; 
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: url(../img/solidstack-s.svg);
-      background-size: 200% 200%; 
-      background-position: 50% 50%;
-      opacity: .03; 
-    }
-
     &:hover{ 
       @include transition;
-
-      .bgs{
-        @include transition;
-        background-size: 225% 225%;
-      }
     }
   }
 
   .pc-content{ position: relative; z-index: 10; }
+
+  .card-title{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 1.75rem; 
+    font-weight: 200; 
+    letter-spacing: .15rem;
+    line-height: 1.75rem; 
+  }
+
+  .card-description{
+  }
 
   .http{
     background-size: 200% 100% !important;
@@ -328,6 +346,29 @@
     background: linear-gradient(45deg, rgba(18,18,56,1) 0%, rgba(38,36,99,1) 45%, rgba(105,255,175,1) 100%);
     
     &:hover{ background-position:50% 0%; }
+  }
+
+  .btn-a{
+    @include transition; 
+    padding: 8px 10px; 
+    border-radius: 5px; 
+    background: $ddblue;
+    
+    p{
+      @include transition;
+      color: $teal;
+      font-weight: 400; 
+    }
+
+    &:hover{
+      @include transition; 
+      background: $teal; 
+
+      p{
+        @include transition;
+        color: white; 
+      }
+    }
   }
 
 /* END: Elements */

@@ -30,6 +30,7 @@
 $lblue: #9FACC1;
 $mblue: #282866;
 $dblue: #09093b;
+$ddblue:#00021E;
 $teal:  #00B0CB;
 $pink:  #ff5886;
 $orange:#ff9169;
@@ -46,6 +47,7 @@ $greena:#69ffaf;
  .text-lblue{   color: $lblue !important; }
  .text-mblue{   color: $lblue !important; }
  .text-dblue{   color: $dblue !important; }
+ .text-ddblue{  color: $ddblue !important; }
  .text-teal{    color: $teal !important; }
  .text-pink{    color: $pink !important; }
  .text-orange{  color: $orange !important; }
@@ -54,6 +56,7 @@ $greena:#69ffaf;
  .bg-lblue{     background: $lblue !important; }
  .bg-mblue{     background: $lblue !important; }
  .bg-dblue{     background: $dblue !important; }
+ .bg-ddblue{    background: $ddblue !important; }
  .bg-teal{      background: $teal !important; }
  .bg-pink{      background: $pink !important; }
  .bg-orange{    background: $orange !important; }
