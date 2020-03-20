@@ -1,10 +1,10 @@
 <!-- Websockets -->
-  <div class="full product-card bg-dblue relative pad30">
+  <div class="full product-card bg-dblue relative pad60">
     <!-- <div class="bgs"></div> -->
     <div class="pc-content">
-      <h2 class="h3 text-white">
-        SolidStack.<span class="text-teal">WebSockets</span>
-      </h2>
+    <p class="card-title text-white">
+      SolidStack.<span class="text-teal text-exbold">WebSockets</span>
+    </p>
 
       <div class="full card-description mar20-top mar20-bot ">
         <p class="text-white">

@@ -1,5 +1,5 @@
 <!-- Rest -->
-  <div class="full product-card rest relative pad30">
+  <div class="full product-card rest relative pad60">
     <!-- <div class="bgs"></div> -->
     <div class="pc-content">
       <p class="card-title text-white">

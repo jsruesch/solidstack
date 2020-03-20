@@ -1,5 +1,5 @@
 <!-- HTTP -->
-  <div class="full product-card bg-dblue pad30">
+  <div class="full product-card bg-dblue pad60">
     
     <p class="card-title text-white">
       SolidStack.<span class="text-teal text-exbold">Logging</span>
