@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>jweb grid</title>
+    <title>SolidStack</title>
     <meta name="description"
           content="Site Decription Content">
 
@@ -18,6 +18,12 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="inc/scripts.js" type="text/javascript"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/609c35c2a9.js" crossorigin="anonymous"></script>
+
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800,900&display=swap" rel="stylesheet">
 
 </head>
 

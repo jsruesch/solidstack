@@ -31,6 +31,7 @@
    min-height: 100%;
    position: relative;
    width: 100%;
+   font-family: 'Catamaran', sans-serif;
 }
 
  body{ 
@@ -42,15 +43,21 @@
     &:hover{  }
   }
 
- p{  }
+ p{ 
+   font-size: 1.1rem; 
+   letter-spacing: .085rem;
+  }
 
  ul{ list-style:none; }
 
  hr{ @include full; }
 
- h1, h2, h3, h4, h5, h6{  }
+ h1, h2, h3, h4, h5, h6{ 
+   font-weight: 900; 
+   letter-spacing: .085rem;
+ }
 
- h1{  }
+ h1{ text-transform: uppercase;  }
  h2{  }
  h3{  }
  h4{  }
@@ -58,7 +65,7 @@
 
  table tr{  }
 
- ::selection{  }
+ ::selection{ background: $mblue; color: white;  }
 
  /* END: Global Styles */
 

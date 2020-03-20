@@ -20,11 +20,29 @@
  * Setup Classes
  * =========================================
  */
-.text-color {
-  color: #000000 !important; }
+.text-lblue {
+  color: #9FACC1 !important; }
 
-.bg-color {
-  background: #000000 !important; }
+.text-mblue {
+  color: #9FACC1 !important; }
+
+.text-dblue {
+  color: #09093b !important; }
+
+.text-teal {
+  color: #00B0CB !important; }
+
+.bg-lblue {
+  background: #9FACC1 !important; }
+
+.bg-mblue {
+  background: #9FACC1 !important; }
+
+.bg-dblue {
+  background: #09093b !important; }
+
+.bg-teal {
+  background: #00B0CB !important; }
 
 /**
  * =========================================
@@ -48,11 +66,29 @@
  * Setup Classes
  * =========================================
  */
-.text-color {
-  color: #000000 !important; }
+.text-lblue {
+  color: #9FACC1 !important; }
 
-.bg-color {
-  background: #000000 !important; }
+.text-mblue {
+  color: #9FACC1 !important; }
+
+.text-dblue {
+  color: #09093b !important; }
+
+.text-teal {
+  color: #00B0CB !important; }
+
+.bg-lblue {
+  background: #9FACC1 !important; }
+
+.bg-mblue {
+  background: #9FACC1 !important; }
+
+.bg-dblue {
+  background: #09093b !important; }
+
+.bg-teal {
+  background: #00B0CB !important; }
 
 @media screen and (max-width: 895px) {
   .mobile-nav-container {
@@ -110,6 +146,12 @@ h1, h2, h3, h4, h5 {
 
 .text-exbold {
   font-weight: 900; }
+
+.text-white {
+  color: #fff; }
+
+.text-black {
+  color: #000; }
 
 /* End Bootstrap Overrides */
 /* Padding Sets */
@@ -627,10 +669,15 @@ html {
   overflow: scroll;
   min-height: 100%;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Catamaran', sans-serif; }
 
 a {
   text-decoration: none; }
+
+p {
+  font-size: 1.1rem;
+  letter-spacing: .085rem; }
 
 ul {
   list-style: none; }
@@ -638,6 +685,17 @@ ul {
 hr {
   width: 100%;
   float: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  letter-spacing: .085rem; }
+
+h1 {
+  text-transform: uppercase; }
+
+::selection {
+  background: #282866;
+  color: white; }
 
 /* END: Global Styles */
 /**
