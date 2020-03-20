@@ -25,89 +25,15 @@
                 </div>
             <!-- Product Card Grid -->
                 <div class="full grid-2col ggap-20">
-                    
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Http</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Rest</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Coroutoines</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Ioc</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Mvc</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Logging</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">WebSockets</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
-                <!-- HTTP -->
-                    <div class="full product-card bg-dblue pad30">
-                        <h2 class="h3 text-white">SolidStack.<span class="text-teal">Localization</span></h2>
-                        <p class="text-white mar10-top mar10-bot">Asyncronous web request library for <span class="text-exbold text-teal">Unity</span></p>
-                        <div class="full grid-2col ggap-10">
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center"><i class="fab fa-github"></i> Clone on Github</p></a>
-                            <a href="#0" class="full pad10 bg-teal"><p class="text-white text-exbold text-center">Install via UPM</p></a>
-                        </div>
-                    </div><!-- HTTP -->
-
+                    <?php include('./inc/product-cards/pc-http.php') ?>
+                    <?php include('./inc/product-cards/pc-rest.php') ?>
+                    <?php include('./inc/product-cards/pc-coroutines.php') ?>
+                    <?php include('./inc/product-cards/pc-ioc.php') ?>
+                    <?php include('./inc/product-cards/pc-mvc.php') ?>
+                    <?php include('./inc/product-cards/pc-logging.php') ?>
+                    <?php include('./inc/product-cards/pc-websockets.php') ?>
+                    <?php include('./inc/product-cards/pc-localization.php') ?>
                 </div><!-- END: Product Card Grid -->
-
             </section><!-- END: Components -->
 
         <!-- Architecture -->
