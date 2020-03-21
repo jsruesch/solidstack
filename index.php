@@ -22,7 +22,7 @@
             <section>
             <!-- Section Header -->
                 <div class="full mar20-bot">
-                    <h1 class="text-white text-center">SolidStack Components</h1>
+                    <p class="section-header text-white text-center">SolidStack <span class="text-teal">Components</span></p>
                 </div>
             <!-- Product Card Grid -->
                 <div class="full grid-2col ggap-20">

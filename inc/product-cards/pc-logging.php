@@ -1,9 +1,9 @@
 <!-- HTTP -->
-  <div class="full product-card bg-dblue relative pad60">
+  <div class="full product-card logging relative pad60">
     <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
-      SolidStack.<span class="text-teal text-exbold">Logging</span>
+      SolidStack.<span class="text-purple text-exbold">Logging</span>
     </p>
 
     <p class="text-white mar10-top mar10-bot">

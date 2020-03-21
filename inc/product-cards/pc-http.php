@@ -1,12 +1,16 @@
 <!-- HTTP -->
   <div class="full product-card http relative pad60">
     <div class="bgs-outline"></div>
-    <div class="pc-content">
-      <p class="card-title text-white">
-          SolidStack.<span class="text-teal text-exbold">Http</span>
-      </p>
 
-      <div class="full card-description mar20-top mar20-bot ">
+    <div class="pc-content">
+
+      <div class="full">
+        <p class="card-title text-white">
+            SolidStack.<span class="text-teal text-exbold">Http</span>
+        </p>
+      </div>
+      
+      <div class="full card-description mar20-top mar20-bot">
         <p class="text-white">
           Asyncronous web request library for Unity.
         </p>
@@ -26,5 +30,6 @@
               </p>
             </a>
         </div><!-- CLOSE: Buttons -->
+
     </div><!-- CLOSE: .pc-content -->
   </div><!-- END: HTTP -->

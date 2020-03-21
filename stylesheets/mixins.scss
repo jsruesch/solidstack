@@ -35,6 +35,10 @@ $teal:  #00B0CB;
 $pink:  #ff5886;
 $orange:#ff9169;
 $greena:#69ffaf;
+$yellow:#fff569;
+$purple:#cf8cff;
+$reda:  #ff8c8c;
+$bluea: #8ca2ff;
 
  /* END Variables */
 
@@ -52,6 +56,10 @@ $greena:#69ffaf;
  .text-pink{    color: $pink !important; }
  .text-orange{  color: $orange !important; }
  .text-greena{  color: $greena !important; }
+ .text-yellow{  color: $yellow !important; }
+ .text-purple{  color: $purple !important; }
+ .text-reda{    color: $reda !important; }
+ .text-bluea{   color: $bluea !important; }
 
  .bg-lblue{     background: $lblue !important; }
  .bg-mblue{     background: $lblue !important; }
@@ -61,4 +69,8 @@ $greena:#69ffaf;
  .bg-pink{      background: $pink !important; }
  .bg-orange{    background: $orange !important; }
  .bg-greena{    background: $greena !important; }
+ .bg-yellow{    background: $yellow !important; }
+ .bg-purple{    background: $purple !important; }
+ .bg-reda{      background: $reda !important; }
+ .bg-bluea{     background: $bluea !important; }
 

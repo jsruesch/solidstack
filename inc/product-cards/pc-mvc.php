@@ -1,11 +1,9 @@
 <!-- Mvc -->
-  <div class="full product-card bg-dblue relative pad60">
+  <div class="full product-card mvc relative pad60">
     <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
-    <div class="pc-content">
-      <p class="card-title text-white">
-        SolidStack.<span class="text-teal text-exbold">Mvc</span>
+        SolidStack.<span class="text-yellow text-exbold">Mvc</span>
       </p>
 
       <div class="full card-description mar20-top mar20-bot ">
@@ -29,5 +27,4 @@
         </a>
       </div><!-- CLOSE: Buttons -->
     </div><!-- CLOSE: .pc-content -->
-</div>
   </div><!-- END: Mvc -->
