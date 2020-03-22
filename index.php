@@ -16,10 +16,10 @@
 <!-- Main Content -->
     <div class="wrapper relative bg-ddblue">
         <div class="bgs-outline"></div>
-        <div class="wrapper-content relative pad60">
+        <div class="wrapper-content relative">
 
         <!-- Components -->
-            <section>
+            <section class="pad60">
             <!-- Section Header -->
                 <div class="full mar30-bot">
                     <p class="section-header text-white text-center">SolidStack <span class="text-teal text-exbold">Components</span></p>
@@ -37,32 +37,38 @@
                 </div><!-- END: Product Card Grid -->
             </section><!-- END: Components -->
 
-        <!-- Architecture -->
-            <section class="bg-mblue pad30">
+        </div><!-- CLOSE .wrapper-content -->
+    </div><!-- END: Main Content / CLOSE: .wrapper -->
+
+    <!-- Architecture -->
+        <section class="wrapper bg-mblue pad30">
+            <div class="wrapper-content">
             <!-- Section Header -->
                 <div class="full">
                     <h1 class="text-white text-center">Architecture</h1>
                 </div>
-            </section><!-- Architecture -->
+            </div><!-- CLOSE .wrapper-content -->
+        </section><!-- Architecture -->
 
-        <!-- Applications -->
-            <section class="bg-teal pad30">
+    <!-- Applications -->
+        <section class="wrapper bg-teal pad30">
+            <div class="wrapper-content">
             <!-- Section Header -->
                 <div class="full">
                     <h1 class="text-white text-center">Applications</h1>
                 </div>
-            </section><!-- END: Applications -->
+            </div>
+        </section><!-- END: Applications -->
 
-        <!-- Contribute -->
-            <section class="bg-dblue pad30">
+    <!-- Contribute -->
+        <section class="wrapper bg-dblue pad30">
+            <div class="wrapper-content">
             <!-- Section Header -->
                 <div class="full">
                     <h1 class="text-white text-center">Contribute</h1>
-                </div>                
-            </section><!-- END: Contribute -->
-
-        </div><!-- CLOSE .wrapper-content -->
-    </div><!-- END: Main Content / CLOSE: .wrapper -->
+                </div>    
+            </div>            
+        </section><!-- END: Contribute -->
 
 <!-- Footer -->
 <?php include('./inc/footer.php') ?> 

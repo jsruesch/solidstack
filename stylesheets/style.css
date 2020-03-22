@@ -197,6 +197,9 @@
   .mobile-nav-container {
     display: block !important; }
 
+  .nav-logo-desktop {
+    margin-left: 10px; }
+
   .nav-link-mobile-container {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
