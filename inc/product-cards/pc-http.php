@@ -1,5 +1,5 @@
 <!-- HTTP -->
-  <div class="full product-card http relative pad60">
+  <div class="full product-card http relative">
     <div class="bgs-outline"></div>
 
     <div class="pc-content">
@@ -10,7 +10,7 @@
         </p>
       </div>
       
-      <div class="full card-description mar20-top mar20-bot">
+      <div class="full card-description">
         <p class="text-white">
           Asyncronous web request library for Unity.
         </p>

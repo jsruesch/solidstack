@@ -355,6 +355,8 @@
     align-items: stretch;
     align-content: stretch; 
 
+    padding: 60px; 
+
     .bgs-outline{
       @include transition;
       position: absolute; 
@@ -408,6 +410,7 @@
   }
 
   .card-description{
+    margin: 20px 0;
     flex: 1; 
   }
 

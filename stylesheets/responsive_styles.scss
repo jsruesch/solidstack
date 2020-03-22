@@ -9,12 +9,19 @@
 // Desktop
 @media screen and (max-width: 895px){ 
 
+    .section-header{ font-size: 1.8rem !important; line-height: 1.8rem !important;  }
+
     .nav-link-container{  display: none !important; }
     .mobile-nav-container{  display: block !important; }
 
     .nav-link-mobile-container{ @include transition; display: block !important; }
 
     .navigation-container{ height: 50px !important; }
+
+    // Product Cards
+    .product-card{ padding: 20px !important; }
+    .card-description{ margin: 10px 0 !important; font-size: 1.1rem !important;  }
+    .card-title{ font-size: 1.5rem !important; }
    
 } // END: Desktop
 

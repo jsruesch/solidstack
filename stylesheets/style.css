@@ -187,6 +187,10 @@
   background: #8ca2ff !important; }
 
 @media screen and (max-width: 895px) {
+  .section-header {
+    font-size: 1.8rem !important;
+    line-height: 1.8rem !important; }
+
   .nav-link-container {
     display: none !important; }
 
@@ -201,7 +205,17 @@
     display: block !important; }
 
   .navigation-container {
-    height: 50px !important; } }
+    height: 50px !important; }
+
+  .product-card {
+    padding: 20px !important; }
+
+  .card-description {
+    margin: 10px 0 !important;
+    font-size: 1.1rem !important; }
+
+  .card-title {
+    font-size: 1.5rem !important; } }
 /**
  * =========================================
  * Setup
@@ -1035,7 +1049,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  align-content: stretch; }
+  align-content: stretch;
+  padding: 60px; }
   .product-card .bgs-outline {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1105,6 +1120,7 @@ h1 {
   line-height: 1.75rem; }
 
 .card-description {
+  margin: 20px 0;
   flex: 1; }
 
 .http {

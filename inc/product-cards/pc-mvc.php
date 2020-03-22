@@ -1,12 +1,12 @@
 <!-- Mvc -->
-  <div class="full product-card mvc relative pad60">
+  <div class="full product-card mvc relative">
     <div class="bgs-outline"></div>
     <div class="pc-content">
       <p class="card-title text-white">
         SolidStack.<span class="text-yellow text-exbold">Mvc</span>
       </p>
 
-      <div class="full card-description mar20-top mar20-bot ">
+      <div class="full card-description">
         <p class="text-white">
           Build scalable UI with Model View Controller pattern.
         </p>
