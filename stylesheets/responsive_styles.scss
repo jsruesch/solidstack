@@ -9,6 +9,7 @@
 // Desktop
 @media screen and (max-width: 895px){ 
 
+    .nav-link-container{  display: none !important; }
     .mobile-nav-container{  display: block !important; }
 
     .nav-link-mobile-container{ @include transition; display: block !important; }

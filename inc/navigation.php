@@ -1,11 +1,13 @@
-<div class="wrapper">
+<div class="wrapper bg-ddblue">
    <div class="wrapper-content">
 
 <!-- Desktop Nav -->
    <div class="navigation-container">
       <div class="navigation-content">
 
-         <div class="nav-link-container right">
+         <div class="nav-logo-desktop"></div>
+      
+         <div class="nav-link-container">
             <?php include('nav-links.php') ?>
          </div>
 

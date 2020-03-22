@@ -99,8 +99,8 @@
 
   .navigation-container{ 
       display: block;
-      height: 125px;
       width: 100%; 
+      height: 60px; 
       
       .navigation-content{
         height: 100%; 
@@ -119,11 +119,54 @@
 
     .nav-link-container{
       height: 100%;
+      float:right; 
+
+      .fa-github{
+        font-size: 1.35rem;
+        padding-top: 5px; 
+      }
+    }
+
+    .nav-logo-desktop{
+      float: left;
+      height: 50px;
+      width: 190px;
+      margin-top: 5px; 
+      background: url(../img/solidstack-logo-light.svg) no-repeat;
+      background-size: stretch;
     }
 
     .navigation-links{
+      height: 60px; 
+      
+
       li{
-        a{  }
+        height: 100%; 
+        float:left; 
+        display: flex;
+        justify-content: center; 
+        align-items: stretch;
+
+        a{
+          @include transition; 
+          
+          justify-content: center;
+          align-self: center;
+          
+          height: 100%;
+          padding: 15px 10px;  
+          
+          color: $teal; 
+          font-size: 1rem; 
+          letter-spacing: .085rem;
+          font-weight: 400;
+
+          &:hover{
+            @include transition; 
+            background: $teal;
+            color: white;  
+          }
+         }
       }
     }
   }
@@ -272,7 +315,8 @@
 
   .section-header{
     font-size: 2.5rem;
-    font-weight: 900; 
+    line-height: 2.5rem;
+    font-weight: 200; 
     letter-spacing: .085rem;
   }
 
