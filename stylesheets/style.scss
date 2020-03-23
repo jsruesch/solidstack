@@ -313,6 +313,50 @@
   * =========================================
   */ 
 
+  .hero{
+    height: 50vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(206,239,255,1) 100%);
+    border-top:    5px solid $teal;
+    border-bottom: 5px solid $teal;
+
+    .hero-title{
+      font-size: 4rem;
+      line-height: 4rem;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 900;
+      color: $dblue;
+    }
+
+    .hero-content{
+      position: relative; 
+      height: 100%; 
+    }
+
+    .hero-logo{
+      @include full; 
+      height: 100%; 
+
+      img{
+        @include center;
+        height: 70%;
+      }
+    }
+
+    .bgs{
+      position: absolute; 
+      z-index: 0; 
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../img/solidstack-s-dark.svg);
+      background-size: 275% 275%; 
+      background-position: 64% 52.5%;
+      opacity: .1; 
+    }
+  }
+
   .section-header{
     font-size: 2.5rem;
     line-height: 2.5rem;

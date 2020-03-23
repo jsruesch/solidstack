@@ -1012,6 +1012,40 @@ h1 {
  * Elements
  * =========================================
  */
+.hero {
+  height: 50vh;
+  background: white;
+  background: radial-gradient(circle, white 0%, #ceefff 100%);
+  border-top: 5px solid #00B0CB;
+  border-bottom: 5px solid #00B0CB; }
+  .hero .hero-title {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    color: #09093b; }
+  .hero .hero-content {
+    position: relative;
+    height: 100%; }
+  .hero .hero-logo {
+    width: 100%;
+    float: left;
+    height: 100%; }
+    .hero .hero-logo img {
+      margin: 0 auto;
+      height: 70%; }
+  .hero .bgs {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-dark.svg);
+    background-size: 275% 275%;
+    background-position: 64% 52.5%;
+    opacity: .1; }
+
 .section-header {
   font-size: 2.5rem;
   line-height: 2.5rem;
