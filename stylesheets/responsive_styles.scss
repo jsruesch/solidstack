@@ -23,6 +23,37 @@
     .product-card{ padding: 20px !important; }
     .card-description{ margin: 10px 0 !important; font-size: 1.1rem !important;  }
     .card-title{ font-size: 1.5rem !important; }
+
+    // Hero
+    .hero{
+        height: 50vh !important;
+
+        .hero-content,
+        .hero-title-container{ 
+            width: 100% !important; 
+            float: left !important; 
+        }
+
+        .hero-title-container{
+            margin-left: 0px !important;
+            padding: 60px; 
+        }
+
+        .hero-title{
+            font-size: 3rem !important;
+            line-height: 3rem !important; 
+        }
+
+        .hero-subtitle{
+            font-size: 1.15rem !important;
+            line-height: 1.75rem;
+          }
+
+        .bgs{
+            background-position: 50% 50% !important; 
+            background-size: 200% 200% !important;
+        }
+    }
    
 } // END: Desktop
 

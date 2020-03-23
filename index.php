@@ -7,27 +7,23 @@
 
 <!-- Hero -->
     <section>
+
+
             <div class="full bg-white relative hero">
                 <div class="bgs"></div>
+               
 
-                <div class="full hero-content grid-2col grid-vertical-align-content">
-                    <div class="hero-logo grid-vertical-align-content">
-                        <img src="img/solidstack-logo-hero.svg" alt="SolidStack"/>
-                    </div>
-                    <div class="full">
-                        <div class="full">
-                            <p class="hero-title">
-                            Build Solid <br />
-                            Architecture <br /> 
-                            in Unity</p>
-                    
-                            <p class="text-dblue text-bold">Re-usable, solid architecture components for <br /> <span class="text-teal text-exbold">Unity</span> and <span class="text-teal text-exbold">C#</span></p>
-                        </div>
-                        
-                    </div>
-                    
+                <div class="full grid-vertical-align-content">
+                    <div class="hero-title-container">
+                    <p class="hero-title">
+                    Build Solid <br />
+                    Architecture <br /> 
+                    in Unity</p>
+            
+                    <p class="hero-subtitle">Re-usable, solid architecture components for <span class="text-teal text-exbold">Unity</span> and <span class="text-teal text-exbold">C#</span></p>
+                </div>                        
                 </div>
-                
+
             </div>
         </section><!-- END: Hero -->
 
@@ -90,4 +86,3 @@
 
 <!-- Footer -->
 <?php include('./inc/footer.php') ?> 
-

@@ -314,7 +314,7 @@
   */ 
 
   .hero{
-    height: 50vh;
+    height: 60vh;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(206,239,255,1) 100%);
     border-top:    5px solid $teal;
@@ -326,6 +326,16 @@
       font-family: 'Catamaran', sans-serif;
       font-weight: 900;
       color: $dblue;
+      text-shadow: 0px 0px 30px white; 
+    }
+
+    .hero-subtitle{
+      margin-top: 10px; 
+      font-size: 1.35rem;
+      line-height: 1.75rem;
+      font-weight: 500;
+      color: $dblue;
+      text-shadow: 0px 0px 10px white; 
     }
 
     .hero-content{
@@ -333,13 +343,18 @@
       height: 100%; 
     }
 
+    .hero-title-container{
+      position: relative; 
+      float: left; 
+      width: 415px;
+      margin-left: 50%; 
+    }
+
     .hero-logo{
-      @include full; 
-      height: 100%; 
+      max-width: 415px; 
 
       img{
-        @include center;
-        height: 70%;
+        height: 225px;
       }
     }
 
@@ -351,9 +366,9 @@
       bottom: 0;
       left: 0;
       background: url(../img/solidstack-s-dark.svg);
-      background-size: 275% 275%; 
-      background-position: 64% 52.5%;
-      opacity: .1; 
+      background-size: 225% 225%; 
+      background-position: 64% 50%;
+      opacity: .25; 
     }
   }
 

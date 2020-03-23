@@ -218,7 +218,26 @@
     font-size: 1.1rem !important; }
 
   .card-title {
-    font-size: 1.5rem !important; } }
+    font-size: 1.5rem !important; }
+
+  .hero {
+    height: 50vh !important; }
+    .hero .hero-content,
+    .hero .hero-title-container {
+      width: 100% !important;
+      float: left !important; }
+    .hero .hero-title-container {
+      margin-left: 0px !important;
+      padding: 60px; }
+    .hero .hero-title {
+      font-size: 3rem !important;
+      line-height: 3rem !important; }
+    .hero .hero-subtitle {
+      font-size: 1.15rem !important;
+      line-height: 1.75rem; }
+    .hero .bgs {
+      background-position: 50% 50% !important;
+      background-size: 200% 200% !important; } }
 /**
  * =========================================
  * Setup
@@ -1013,7 +1032,7 @@ h1 {
  * =========================================
  */
 .hero {
-  height: 50vh;
+  height: 60vh;
   background: white;
   background: radial-gradient(circle, white 0%, #ceefff 100%);
   border-top: 5px solid #00B0CB;
@@ -1023,17 +1042,27 @@ h1 {
     line-height: 4rem;
     font-family: 'Catamaran', sans-serif;
     font-weight: 900;
-    color: #09093b; }
+    color: #09093b;
+    text-shadow: 0px 0px 30px white; }
+  .hero .hero-subtitle {
+    margin-top: 10px;
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: #09093b;
+    text-shadow: 0px 0px 10px white; }
   .hero .hero-content {
     position: relative;
     height: 100%; }
-  .hero .hero-logo {
-    width: 100%;
+  .hero .hero-title-container {
+    position: relative;
     float: left;
-    height: 100%; }
+    width: 415px;
+    margin-left: 50%; }
+  .hero .hero-logo {
+    max-width: 415px; }
     .hero .hero-logo img {
-      margin: 0 auto;
-      height: 70%; }
+      height: 225px; }
   .hero .bgs {
     position: absolute;
     z-index: 0;
@@ -1042,9 +1071,9 @@ h1 {
     bottom: 0;
     left: 0;
     background: url(../img/solidstack-s-dark.svg);
-    background-size: 275% 275%;
-    background-position: 64% 52.5%;
-    opacity: .1; }
+    background-size: 225% 225%;
+    background-position: 64% 50%;
+    opacity: .25; }
 
 .section-header {
   font-size: 2.5rem;
