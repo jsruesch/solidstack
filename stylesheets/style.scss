@@ -97,6 +97,14 @@
   * =========================================
   */
 
+  .nav{
+    position: fixed; 
+    top: 0;
+    z-index: 999999;
+    background: $ddblue; 
+    border-bottom: 3px solid $teal;
+  }
+
   .navigation-container{ 
       display: block;
       width: 100%; 
@@ -314,10 +322,10 @@
   */ 
 
   .hero{
+    margin-top: 60px; // Offest because of nav
     height: 60vh;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(206,239,255,1) 100%);
-    border-top:    5px solid $teal;
     border-bottom: 5px solid $teal;
 
     .hero-title{

@@ -1,4 +1,4 @@
-<div class="wrapper bg-ddblue">
+<div class="wrapper nav">
    <div class="wrapper-content">
 
 <!-- Desktop Nav -->
