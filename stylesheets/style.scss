@@ -101,7 +101,7 @@
     position: fixed; 
     top: 0;
     z-index: 999999;
-    background: $ddblue; 
+    background: white; 
     border-bottom: 3px solid $teal;
   }
 
@@ -140,7 +140,7 @@
       height: 50px;
       width: 190px;
       margin-top: 5px; 
-      background: url(../img/solidstack-logo-light.svg) no-repeat;
+      background: url(../img/solidstack-logo-dark.svg) no-repeat;
       background-size: stretch;
     }
 
@@ -271,6 +271,7 @@
         transition-delay: 150ms;
       }
     }
+
   }
   
   /*
@@ -411,6 +412,18 @@
     background-size: 200% 200%; 
     background-position: 50% 50%;
     opacity: .04; 
+  }
+  .bgs-outline-dark{
+    position: absolute; 
+    z-index: 0; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-outline.svg);
+    background-size: 200% 200%; 
+    background-position: 50% 50%;
+    opacity: .1; 
   }
 
   .product-card{

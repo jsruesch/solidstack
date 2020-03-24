@@ -28,15 +28,15 @@
         </section><!-- END: Hero -->
 
 <!-- Main Content -->
-    <div class="wrapper relative bg-ddblue">
-        <div class="bgs-outline"></div>
+    <div class="wrapper relative bg-white">
+        <div class="bgs-outline-dark"></div>
         <div class="wrapper-content relative">
 
         <!-- Components -->
             <section class="pad60">
             <!-- Section Header -->
                 <div class="full mar30-bot">
-                    <p class="section-header text-white text-center">SolidStack <span class="text-teal text-exbold">Components</span></p>
+                    <p class="section-header text-ddblue text-center">SolidStack <span class="text-teal text-exbold">Components</span></p>
                 </div>
             <!-- Product Card Grid -->
                 <div class="full grid-2col ggap-20">
