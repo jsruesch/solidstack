@@ -1007,15 +1007,25 @@ h1 {
   .hamburger span:last-child:before, .hamburger span:last-child:after {
     transition-delay: 150ms; }
 
-.menu-toggle:hover .hamburger span:before {
-  transform: translateX(0); }
-.menu-toggle:hover .hamburger span:after {
-  transform: translateX(200%); }
-.menu-toggle.active .hamburger span:before {
-  transform: translateX(100%); }
-.menu-toggle.active .hamburger span:after {
-  transform: translateX(200%); }
-
+/*
+.menu-toggle {
+  &:hover .hamburger span {
+    &:before {
+      transform: translateX(0);
+    }
+    &:after {
+      transform: translateX(200%);
+    }
+  }
+  &.active .hamburger span {
+    &:before {
+      transform: translateX(100%);
+    }
+    &:after {
+      transform: translateX(200%);
+    }
+  }
+}*/
 .cross span {
   display: block;
   width: 25px;

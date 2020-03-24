@@ -19,10 +19,10 @@
                   <span></span>
                   <span></span>
                </div>
-               <div class="cross">
+               <!-- <div class="cross">
                   <span></span>
                   <span></span>
-               </div>
+               </div> -->
             </div><!-- END: Menu Toggle Button -->
          </div>
       </div><!-- CLOSE: .navigation-content -->
