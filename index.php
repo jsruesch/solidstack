@@ -28,15 +28,15 @@
         </section><!-- END: Hero -->
 
 <!-- Main Content -->
-    <div class="wrapper relative bg-white">
-        <div class="bgs-outline-dark"></div>
+    <div class="wrapper relative bg-ddblue">
+        <div class="bgs-outline"></div>
         <div class="wrapper-content relative">
 
         <!-- Components -->
             <section class="pad60">
             <!-- Section Header -->
                 <div class="full mar30-bot">
-                    <p class="section-header text-ddblue text-center">SolidStack <span class="text-teal text-exbold">Components</span></p>
+                    <p class="section-header text-white text-center">SolidStack <span class="text-teal text-exbold">Components</span></p>
                 </div>
             <!-- Product Card Grid -->
                 <div class="full grid-2col ggap-20">
@@ -65,14 +65,21 @@
         </section><!-- Architecture -->
 
     <!-- Applications -->
-        <section class="wrapper bg-teal pad30">
-            <div class="wrapper-content">
+        <section class="wrapper relative">
+            <div class="bgs-outline-dark"></div>
+            <div class="wrapper-content relative">
             <!-- Section Header -->
-                <div class="full">
-                    <h1 class="text-white text-center">Applications</h1>
+                <div class="full grid-2col div grid-vertical-align-content pad60">
+                    <div class="full pad60">
+                    <p class="section-subheader text-teal mar10-bot">Build Asynchronous Unity Applications</span></p>
+                    <p class="text-ddblue text-bold">Use full power of C# Tasks in Unity, with async/await syntax, progress tracking and cancellation tokens. Forget about coroutine-flavored callback hell.</p>
+                    </div>
+                    <div class="full">
+                        <img src="img/graphic-applications.svg" alt="" class="grid-image">
+                    </div>
                 </div>
-            </div>
-        </section><!-- END: Applications -->
+            </div><!-- CLOSE .wrapper-content -->
+        </section><!-- Applications -->
 
     <!-- Contribute -->
         <section class="wrapper bg-dblue pad30">

@@ -162,12 +162,12 @@
           align-self: center;
           
           height: 100%;
-          padding: 15px 10px;  
+          padding: 15px 15px;  
           
           color: $teal; 
           font-size: 1rem; 
           letter-spacing: .085rem;
-          font-weight: 400;
+          font-weight: 500;
 
           &:hover{
             @include transition; 
@@ -387,6 +387,13 @@
     line-height: 2.5rem;
     font-weight: 200; 
     letter-spacing: .085rem;
+  }
+
+  .section-subheader{
+    font-size: 1.65rem;
+    line-height: 1.65rem;
+    font-weight: 900; 
+    // letter-spacing: .05rem;
   }
 
   .bgs{

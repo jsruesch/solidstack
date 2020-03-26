@@ -913,11 +913,11 @@ h1 {
         justify-content: center;
         align-self: center;
         height: 100%;
-        padding: 15px 10px;
+        padding: 15px 15px;
         color: #00B0CB;
         font-size: 1rem;
         letter-spacing: .085rem;
-        font-weight: 400; }
+        font-weight: 500; }
         .navigation-container .navigation-links li a:hover {
           -webkit-transition: all 0.3s ease;
           -moz-transition: all 0.3s ease;
@@ -1097,6 +1097,11 @@ h1 {
   line-height: 2.5rem;
   font-weight: 200;
   letter-spacing: .085rem; }
+
+.section-subheader {
+  font-size: 1.65rem;
+  line-height: 1.65rem;
+  font-weight: 900; }
 
 .bgs {
   position: absolute;

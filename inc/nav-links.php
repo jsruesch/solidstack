@@ -27,7 +27,7 @@
 
    <li class="navlink">
       <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-         <i class="fab fa-github text-white"></i>
+         <i class="fab fa-github text-ddblue"></i>
       </a>
    </li>
 
