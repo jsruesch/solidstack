@@ -191,6 +191,10 @@
     font-size: 1.8rem !important;
     line-height: 1.8rem !important; }
 
+  .section-subheader {
+    font-size: 1.25rem !important;
+    line-height: 1.25rem !important; }
+
   .nav-link-container {
     display: none !important; }
 
@@ -638,6 +642,11 @@ h1, h2, h3, h4, h5 {
 .h-flex {
   flex-grow: 1; }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
 .grid-vertical-align-content {
   display: flex;
   justify-content: center;
@@ -718,6 +727,10 @@ section {
 .grid-item-midright {
   grid-area: midright; }
 
+.center-callout .center-callout-content {
+  margin: 0 auto;
+  width: 65vw; }
+
 .grid-2col-m {
   display: grid;
   grid-template-columns: 1fr 1fr; }
@@ -786,7 +799,11 @@ section {
   .grid-4col-2col-m {
     display: grid;
     grid-template-columns: 1fr 1fr !important;
-    grid-template-areas: "left right" !important; } }
+    grid-template-areas: "left right" !important; }
+
+  .center-callout .center-callout-content {
+    width: 100% !important;
+    float: left !important; } }
 /* END: Imports */
 /**
  * =========================================
@@ -1099,8 +1116,8 @@ h1 {
   letter-spacing: .085rem; }
 
 .section-subheader {
-  font-size: 1.65rem;
-  line-height: 1.65rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   font-weight: 900; }
 
 .bgs {
@@ -1301,6 +1318,34 @@ h1 {
     -o-transition: all 0.3s ease;
     background: #00B0CB; }
     .btn-a:hover p {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      color: white; }
+
+.btn-b {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: #282866; }
+  .btn-b p {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: white;
+    font-weight: 400; }
+  .btn-b:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background: #00B0CB; }
+    .btn-b:hover p {
       -webkit-transition: all 0.3s ease;
       -moz-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;

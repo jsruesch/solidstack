@@ -390,8 +390,8 @@
   }
 
   .section-subheader{
-    font-size: 1.65rem;
-    line-height: 1.65rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     font-weight: 900; 
     // letter-spacing: .05rem;
   }
@@ -575,6 +575,29 @@
     p{
       @include transition;
       color: $teal;
+      font-weight: 400; 
+    }
+
+    &:hover{
+      @include transition; 
+      background: $teal; 
+
+      p{
+        @include transition;
+        color: white; 
+      }
+    }
+  }
+
+  .btn-b{
+    @include transition; 
+    padding: 8px 20px; 
+    border-radius: 5px; 
+    background: $mblue;
+    
+    p{
+      @include transition;
+      color: white;
       font-weight: 400; 
     }
 

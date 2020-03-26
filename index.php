@@ -55,7 +55,7 @@
     </div><!-- END: Main Content / CLOSE: .wrapper -->
 
     <!-- Architecture -->
-        <section class="wrapper bg-mblue pad30">
+        <section class="wrapper bg-teal pad30">
             <div class="wrapper-content">
             <!-- Section Header -->
                 <div class="full">
@@ -82,12 +82,27 @@
         </section><!-- Applications -->
 
     <!-- Contribute -->
-        <section class="wrapper bg-dblue pad30">
+        <section class="wrapper bg-ddblue">
             <div class="wrapper-content">
             <!-- Section Header -->
-                <div class="full">
-                    <h1 class="text-white text-center">Contribute</h1>
-                </div>    
+                <div class="full center-callout pad60">
+                    <div class="center-callout-content">
+                        <div class="full mar10-bot">
+                            <p class="section-header text-white text-center"><span class="text-exbold">Contribute</span></p>
+                        </div>
+                        <div class="full mar20-bot">
+                            <p class="section-subheader text-teal text-center mar10-bot">Become part of the SolidStack community!</span></p>
+                            <p class="text-mblue text-center text-bold">Our Community is growing! Become part of the OpenSource community. Check out our components on GitHub</p>
+                        </div>
+                        <div class="full flex-center">
+                        <a href="#0" class="btn-b">
+                            <p class="">
+                                Get Started
+                            </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>            
         </section><!-- END: Contribute -->
 
