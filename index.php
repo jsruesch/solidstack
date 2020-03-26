@@ -55,11 +55,18 @@
     </div><!-- END: Main Content / CLOSE: .wrapper -->
 
     <!-- Architecture -->
-        <section class="wrapper bg-teal pad30">
+        <section class="wrapper bg-grad-white-pink">
             <div class="wrapper-content">
             <!-- Section Header -->
-                <div class="full">
-                    <h1 class="text-white text-center">Architecture</h1>
+                <div class="full grid-2col ggap-30 div grid-vertical-align-content pad60">
+                    <div class="full">
+                        <img src="img/graphic-architecture.svg" alt="" class="grid-image">
+                    </div>
+                    <div class="full pad60">
+                    <p class="section-subheader text-pink mar10-bot">Enable Test-Driven Architecture</span></p>
+                    <p class="text-ddblue text-bold">Unit testing games is hard. SolidStack components are built with dependency injection and interface segregation in mind, and help streamling test-driven development for your project. </p>
+                    </div>
+                   
                 </div>
             </div><!-- CLOSE .wrapper-content -->
         </section><!-- Architecture -->

@@ -88,6 +88,13 @@
    padding-left: 20px;
   }
 
+  // Background Gradients
+    //White to Pink
+    .bg-grad-white-pink{
+      background: rgb(255,255,255);
+      background: linear-gradient(13deg, rgba(255,255,255,1) 56%, rgba(255,230,235,1) 100%);
+    }
+
  /* END: Utility Classes */
 
 

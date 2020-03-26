@@ -873,6 +873,10 @@ h1 {
   content: "\2022";
   padding-left: 20px; }
 
+.bg-grad-white-pink {
+  background: white;
+  background: linear-gradient(13deg, white 56%, #ffe6eb 100%); }
+
 /* END: Utility Classes */
 /**
  * =========================================
