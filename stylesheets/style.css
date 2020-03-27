@@ -211,9 +211,6 @@
     -o-transition: all 0.3s ease;
     display: block !important; }
 
-  .navigation-container {
-    height: 50px !important; }
-
   .product-card {
     padding: 20px !important; }
 
@@ -877,6 +874,10 @@ h1 {
   background: white;
   background: linear-gradient(13deg, white 56%, #ffe6eb 100%); }
 
+.bg-grad-white-teal {
+  background: white;
+  background: linear-gradient(13deg, white 56%, #e0fbff 100%); }
+
 /* END: Utility Classes */
 /**
  * =========================================
@@ -888,6 +889,7 @@ h1 {
   top: 0;
   z-index: 999999;
   background: white;
+  background: linear-gradient(13deg, white 56%, #e0fbff 100%);
   border-bottom: 3px solid #00B0CB; }
 
 .navigation-container {
@@ -900,9 +902,17 @@ h1 {
     position: relative; }
   .navigation-container .mobile-nav-container {
     display: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     width: 100%;
     float: left; }
-  .navigation-container .mobile-navigtation-links-container {
+  .navigation-container .mobile-navigation-links-container {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     width: 100%;
     float: left; }
   .navigation-container .nav-link-container {
@@ -926,6 +936,8 @@ h1 {
       display: flex;
       justify-content: center;
       align-items: stretch; }
+      .navigation-container .navigation-links li .fa-github {
+        color: #00021E; }
       .navigation-container .navigation-links li a {
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
@@ -953,12 +965,44 @@ h1 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   height: 0;
-  width: 0;
-  top: -30px;
-  position: relative;
+  width: 100%;
+  top: 0;
+  position: absolute;
   opacity: 0;
   visibility: hidden;
-  display: none; }
+  display: none;
+  margin-top: 60px;
+  border-top: 5px solid #00B0CB; }
+  .mobile-nav-container .navigation-links .navlink a {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    background: white;
+    color: #282866;
+    font-size: 1.2rem;
+    letter-spacing: .085rem;
+    font-weight: 500; }
+    .mobile-nav-container .navigation-links .navlink a .fa-github {
+      padding: 8px; }
+    .mobile-nav-container .navigation-links .navlink a:hover {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      background: #00B0CB;
+      color: white; }
+      .mobile-nav-container .navigation-links .navlink a:hover .fa-github {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        color: white; }
 
 .mobile-nav-expanded {
   -webkit-transition: all 0.3s ease;
@@ -967,12 +1011,15 @@ h1 {
   -o-transition: all 0.3s ease;
   opacity: 1;
   visibility: visible;
-  height: 55px;
+  height: auto;
   width: 100%;
   top: 0;
-  position: relative;
+  position: absolute;
   z-index: 99999;
-  background: #03010b; }
+  padding: 20px;
+  background: #2a2966;
+  background: linear-gradient(10deg, #2a2966 0%, #2088ad 100%);
+  box-shadow: 0 2.2px 2.2px -19px rgba(0, 0, 0, 0.034), 0 5.3px 5.3px -19px rgba(0, 0, 0, 0.048), 0 9.9px 10px -19px rgba(0, 0, 0, 0.06), 0 17.6px 17.9px -19px rgba(0, 0, 0, 0.072), 0 33px 33.4px -19px rgba(0, 0, 0, 0.086), 0 79px 80px -19px rgba(0, 0, 0, 0.12); }
 
 .nav-link-mobile-container {
   -webkit-transition: all 0.3s ease;
@@ -1001,8 +1048,9 @@ h1 {
 .hamburger span {
   display: block;
   width: 25px;
-  height: 3px;
-  margin-bottom: 6px;
+  height: 4px;
+  margin-bottom: 4px;
+  border-radius: 2px;
   overflow: hidden;
   position: relative; }
   .hamburger span:last-child {
@@ -1019,7 +1067,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #09093b;
     transform: translateX(-200%);
     transition: transform ease 300ms;
     transform: translateX(0); }

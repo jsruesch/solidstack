@@ -58,8 +58,8 @@
         <section class="wrapper bg-grad-white-pink">
             <div class="wrapper-content">
             <!-- Section Header -->
-                <div class="full grid-2col ggap-30 div grid-vertical-align-content pad60">
-                    <div class="full">
+                <div class="full grid-2col div grid-vertical-align-content pad60">
+                    <div class="full pad60">
                         <img src="img/graphic-architecture.svg" alt="" class="grid-image">
                     </div>
                     <div class="full pad60">
@@ -81,7 +81,7 @@
                     <p class="section-subheader text-teal mar10-bot">Build Asynchronous Unity Applications</span></p>
                     <p class="text-ddblue text-bold">Use full power of C# Tasks in Unity, with async/await syntax, progress tracking and cancellation tokens. Forget about coroutine-flavored callback hell.</p>
                     </div>
-                    <div class="full">
+                    <div class="full pad60">
                         <img src="img/graphic-applications.svg" alt="" class="grid-image">
                     </div>
                 </div>

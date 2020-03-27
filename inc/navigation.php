@@ -1,10 +1,10 @@
 <div class="wrapper nav">
    <div class="wrapper-content">
+   
 
 <!-- Desktop Nav -->
    <div class="navigation-container">
       <div class="navigation-content">
-
          <a href="#0"><div class="nav-logo-desktop"></div></a>
       
          <div class="nav-link-container">
@@ -29,8 +29,8 @@
    </div><!-- END: Desktop Nav -->
 
     <!-- Mobile Navigation -->
-    <div class="mobile-nav-container">
-      <div class="mobile-navigtation-links-container grid-vertical-align-content">
+    <div class="mobile-nav-container relative">
+      <div class="mobile-navigtation-links-container relative">
          <?php include('nav-links.php') ?>
       </div>
    </div> <!-- END: Mobile Navigation -->
