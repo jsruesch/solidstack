@@ -56,7 +56,6 @@
 
     <!-- Architecture -->
         <section class="wrapper relative bg-grad-white-pink">
-            <div class="bgs-dark"></div>
             <div class="wrapper-content">
             <!-- Section Header -->
                 <div class="full grid-2col div grid-vertical-align-content pad30">

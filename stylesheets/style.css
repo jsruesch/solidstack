@@ -966,6 +966,9 @@ h1 {
           background: #00B0CB;
           color: white; }
 
+.mobile-visible {
+  display: none; }
+
 .mobile-nav-container {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -980,8 +983,6 @@ h1 {
   display: none;
   margin-top: 60px;
   border-top: 5px solid #00B0CB; }
-  .mobile-nav-container .navigation-links .mobile-visible {
-    display: none; }
   .mobile-nav-container .navigation-links .navlink a {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;

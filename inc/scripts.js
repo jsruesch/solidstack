@@ -31,7 +31,6 @@ $(document).ready(function() {
   })
 });
 
-
 // Show and Hide Mobile Menu
 $(document).ready(function(){
   $('.menu-toggle').on('click',function(){

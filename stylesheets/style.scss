@@ -202,6 +202,8 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
 
   // Style of nav links on current page
   .navactive{  }
+
+  .mobile-visible{ display: none; }  
   
   // Mobile Menu
   .mobile-nav-container{
@@ -215,13 +217,11 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
     display:none;
     margin-top: 60px;
     border-top: 5px solid $teal;
-    
-
+  
     .navigation-links{
 
-      .mobile-visible{ display: none; }
-
-      .navlink {  
+      .navlink {
+        
         a{
           @include transition;
           display: flex;  
@@ -727,3 +727,11 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
  }
 
 /* END: Footer */
+
+
+
+
+
+
+
+

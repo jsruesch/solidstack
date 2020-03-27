@@ -7,11 +7,13 @@
       </a>
    </li>
    
-   <li class="navlink mobile-visible">
+   <span class="mobile-visible">
+   <li class="navlink">
       <a class="<?= ($current_page == 'work') ? 'navactive' : '' ?>" href="#0">
          Products
       </a>
    </li>
+</span>
 
 
 
