@@ -6,6 +6,14 @@
          Why SolidStack
       </a>
    </li>
+   
+   <li class="navlink mobile-visible">
+      <a class="<?= ($current_page == 'work') ? 'navactive' : '' ?>" href="#0">
+         Products
+      </a>
+   </li>
+
+
 
    <li class="navlink">
       <a class="<?= ($current_page == 'about') ? 'navactive' : '' ?>" href="#0">

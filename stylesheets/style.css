@@ -201,6 +201,9 @@
   .mobile-nav-container {
     display: block !important; }
 
+  .mobile-visible {
+    display: block !important; }
+
   .nav-logo-desktop {
     margin-left: 10px; }
 
@@ -977,6 +980,8 @@ h1 {
   display: none;
   margin-top: 60px;
   border-top: 5px solid #00B0CB; }
+  .mobile-nav-container .navigation-links .mobile-visible {
+    display: none; }
   .mobile-nav-container .navigation-links .navlink a {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -1407,6 +1412,31 @@ h1 {
       -ms-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       color: white; }
+
+.back-to-top {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: fixed;
+  border-radius: 5px;
+  padding: 10px 15px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: #00B0CB;
+  background-color: #282866;
+  display: none; }
+  .back-to-top:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    color: white;
+    background-color: #00B0CB; }
+  .back-to-top img {
+    height: 12px; }
 
 /* END: Elements */
 /**

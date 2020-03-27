@@ -219,6 +219,8 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
 
     .navigation-links{
 
+      .mobile-visible{ display: none; }
+
       .navlink {  
         a{
           @include transition;
@@ -686,6 +688,30 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
       }
     }
   }
+
+  // Scroll To Top 
+  .back-to-top {
+    @include transition; 
+    position: fixed;
+    border-radius: 5px; 
+    padding:  10px 15px; 
+    box-shadow: 0px 5px 8px rgba(0,0,0,.5);
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: $teal;
+    background-color: $mblue;
+    display: none;
+
+    &:hover{
+      @include transition; 
+      color: white; 
+      background-color: $teal;
+    }
+
+    img{ height: 12px; }
+  }
+
 
 /* END: Elements */
 
