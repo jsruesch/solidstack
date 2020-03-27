@@ -871,12 +871,16 @@ h1 {
   padding-left: 20px; }
 
 .bg-grad-white-pink {
-  background: white;
-  background: linear-gradient(13deg, white 56%, #ffe6eb 100%); }
+  background: #ffcbdb;
+  background: linear-gradient(187deg, #ffcbdb 0%, white 53%); }
 
 .bg-grad-white-teal {
   background: white;
   background: linear-gradient(13deg, white 56%, #e0fbff 100%); }
+
+.bg-grad-teal-white {
+  background: #d3fcff;
+  background: linear-gradient(176deg, #d3fcff 0%, white 53%); }
 
 /* END: Utility Classes */
 /**

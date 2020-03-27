@@ -91,13 +91,18 @@
   // Background Gradients
     //White to Pink
     .bg-grad-white-pink{
-      background: rgb(255,255,255);
-      background: linear-gradient(13deg, rgba(255,255,255,1) 56%, rgba(255,230,235,1) 100%);
+      background: rgb(255,203,219);
+background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 53%);
     }
     //White to Teal
     .bg-grad-white-teal{
       background: rgb(255,255,255);
       background: linear-gradient(13deg, rgba(255,255,255,1) 56%, rgba(224,251,255,1) 100%);
+    }
+    //Teal to White
+    .bg-grad-teal-white{
+      background: rgb(211,252,255);
+      background: linear-gradient(176deg, rgba(211,252,255,1) 0%, rgba(255,255,255,1) 53%);
     }
 
  /* END: Utility Classes */

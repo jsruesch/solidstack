@@ -55,10 +55,11 @@
     </div><!-- END: Main Content / CLOSE: .wrapper -->
 
     <!-- Architecture -->
-        <section class="wrapper bg-grad-white-pink">
+        <section class="wrapper relative bg-grad-white-pink">
+            <div class="bgs-dark"></div>
             <div class="wrapper-content">
             <!-- Section Header -->
-                <div class="full grid-2col div grid-vertical-align-content pad60">
+                <div class="full grid-2col div grid-vertical-align-content pad30">
                     <div class="full pad60">
                         <img src="img/graphic-architecture.svg" alt="" class="grid-image">
                     </div>
@@ -72,11 +73,11 @@
         </section><!-- Architecture -->
 
     <!-- Applications -->
-        <section class="wrapper relative">
+        <section class="wrapper relative bg-grad-teal-white">
             <div class="bgs-outline-dark"></div>
             <div class="wrapper-content relative">
             <!-- Section Header -->
-                <div class="full grid-2col div grid-vertical-align-content pad60">
+                <div class="full grid-2col div grid-vertical-align-content pad30">
                     <div class="full pad60">
                     <p class="section-subheader text-teal mar10-bot">Build Asynchronous Unity Applications</span></p>
                     <p class="text-ddblue text-bold">Use full power of C# Tasks in Unity, with async/await syntax, progress tracking and cancellation tokens. Forget about coroutine-flavored callback hell.</p>
