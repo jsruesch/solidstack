@@ -693,6 +693,7 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
   .back-to-top {
     @include transition; 
     position: fixed;
+    z-index: 999999;
     border-radius: 5px; 
     padding:  10px 15px; 
     box-shadow: 0px 5px 8px rgba(0,0,0,.5);
