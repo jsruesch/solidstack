@@ -253,6 +253,118 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
     }
   }
 
+  .accordion {
+    max-width: 800px;
+    margin: 4px 0px 5px 0px; 
+  
+    .product-card{ padding: 10px 15px !important; margin-bottom: 2px !important; }
+    .card-title{ font-size: 1.1rem !important; line-height: 1.2rem !important;  }
+   
+    &__title {
+      padding: 35px 20px;
+      color: #fff;
+      font-weight: bold;
+      background-color: $dblue;
+      border-bottom: 3px solid darken(#000,4%);
+      letter-spacing: 0.25rem;
+    }
+    
+    &__items {
+      position: relative;
+      color: $mblue;
+      cursor: pointer;
+  
+      padding:10px;
+      margin-bottom: 3px; 
+      border-radius: 5px; 
+  
+      background: white; 
+      color: $mblue; 
+      font-size: 1.2rem; 
+      letter-spacing: .085rem;
+      font-weight: 500;
+      
+      &:nth-of-type(even) {
+        background-color: darken(#000,6%);
+      }
+      
+      // arrow
+      &:after {
+        content: '';
+        transition: transform 0.25s ease 0.1s;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        width: 10px;
+        height: 10px;
+        transform: translateY(-50%) rotate(-45deg);
+        border-right: 2px solid $mblue;
+        border-bottom: 2px solid $mblue;
+      }
+  
+      &:hover {
+        background-color: $teal;
+      }
+  
+      &.active {
+        background-color: white;
+        
+        // arrow
+        &:after {
+          transform: translateY(-50%) rotate(45deg);
+        }
+      }
+    }
+    
+    &__content {
+      // transition: 
+      //   opacity 1s ease 0.25s, 
+      //   height 0.25s ease;
+      background-color: $dblue;
+      height: 0;
+      overflow: hidden;
+      opacity: 0;
+  
+      &__caption {
+        // transition: 
+        //   opacity 0.3s ease 0.3s, 
+        //   transform 0.3s ease 0.3s;
+        transform: scaleY(0);
+        color: #ffe;
+        opacity: 0;
+        margin: 20px 0;
+        line-height: 1;
+        font-size: 1rem;
+        text-shadow: 0 1px 1px rgba(255,255,255,0.1);
+      }
+  
+      &__txt {
+        // transition: 
+        //   opacity 0.3s ease 0.6s,
+        //   transform 0.3s ease 0.6s;
+        // transform: scaleY(0);
+        color: #a99;
+        opacity: 0;
+      }
+  
+      &.open {
+        height: auto; 
+        opacity: 1;
+        transform: scaleY(1);
+  
+        .accordion__content__caption {
+          opacity: 1;
+          transform: scaleY(1);
+        }
+  
+        .accordion__content__txt {
+          opacity: 1;
+          transform: scaleY(1);
+        }
+      }
+    }
+  }
+
   .mobile-nav-expanded{
     @include transition; 
     opacity: 1; 
@@ -283,6 +395,38 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
     display: none;
     
     float: right;
+  }
+
+  .mobile-navigtation-links-container{
+    .mobile-nav-grid{
+      a{
+        @include transition;
+        display: flex;  
+        justify-content: center;
+        padding:10px;
+        margin-bottom: 3px; 
+        border-radius: 5px; 
+
+        background: white; 
+        color: $mblue; 
+        font-size: 1.1rem; 
+        letter-spacing: .085rem;
+        font-weight: 500;
+
+        .fa-github{ padding: 6px; }
+
+        &:hover{
+            @include transition; 
+            background: $teal;
+            color: white;  
+
+            .fa-github{
+              @include transition; 
+              color: white; 
+            }
+        }
+      }
+    }
   }
 
   // Menu Toggle Button
@@ -728,8 +872,6 @@ background: linear-gradient(187deg, rgba(255,203,219,1) 0%, rgba(255,255,255,1) 
  }
 
 /* END: Footer */
-
-
 
 
 

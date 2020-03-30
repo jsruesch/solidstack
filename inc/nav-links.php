@@ -7,16 +7,6 @@
       </a>
    </li>
    
-   <span class="mobile-visible">
-   <li class="navlink">
-      <a class="<?= ($current_page == 'work') ? 'navactive' : '' ?>" href="#0">
-         Products
-      </a>
-   </li>
-</span>
-
-
-
    <li class="navlink">
       <a class="<?= ($current_page == 'about') ? 'navactive' : '' ?>" href="#0">
          Docs

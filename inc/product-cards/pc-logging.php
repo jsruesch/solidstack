@@ -1,4 +1,4 @@
-<!-- HTTP -->
+<!-- Logging -->
   <div class="full product-card logging relative">
     <div class="bgs-outline"></div>
     <div class="pc-content">
@@ -25,4 +25,4 @@
       </a>
     </div><!-- CLOSE: Buttons -->
 </div>
-  </div><!-- END: HTTP -->
+  </div><!-- END: Logging -->

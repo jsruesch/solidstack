@@ -31,7 +31,7 @@
     <!-- Mobile Navigation -->
     <div class="mobile-nav-container relative">
       <div class="mobile-navigtation-links-container relative">
-         <?php include('nav-links.php') ?>
+         <?php include('nav-links-m.php') ?>
       </div>
    </div> <!-- END: Mobile Navigation -->
    
