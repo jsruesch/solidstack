@@ -43,6 +43,8 @@
     &:hover{  }
   }
 
+  [data-link]{ cursor: pointer; }
+
  p{ 
    font-size: 1.2rem; 
    letter-spacing: .085rem;
@@ -889,6 +891,58 @@
     }
 
     img{ height: 12px; }
+  }
+
+
+  .product-hero{
+    margin-top: 60px; // Offest because of nav
+    // height: 200px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(206,239,255,1) 100%);
+    border-bottom: 5px solid $teal;
+
+    .hero-title-container{ padding: 60px; position: relative;  }
+
+    .hero-title{
+      font-size: 3rem;
+      line-height: 3rem;
+      font-family: 'Catamaran', sans-serif;
+      font-weight: 100;
+      color: white;
+    }
+
+    .bgs{
+      position: absolute; 
+      z-index: 0; 
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../img/solidstack-s-dark.svg);
+      background-size: 225% auto; 
+      background-position: 64% 50%;
+      opacity: .25; 
+    }
+    .bgs-outline{
+      position: absolute; 
+      z-index: 0; 
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../img/solidstack-s-outline.svg);
+      background-size: 100% auto; 
+      background-position: 64% 50%;
+      opacity: .05; 
+    }
+
+    // Individual Product Hero Background Styles
+    .http, .rest, .coroutines, .ioc,
+    .mvc, .logging, .websockets, .localization,
+    {  
+      background-position:50% 0%;
+      &:hover{ box-shadow: none; }
+    }
   }
 
 /* END: Elements */

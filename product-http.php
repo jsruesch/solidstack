@@ -1,6 +1,6 @@
 
 <!-- Change NavLink for Current Page -->
-<?php $current_page = 'product-ioc'; ?>
+<?php $current_page = 'product-http'; ?>
 
 <!-- Header -->
 <?php include('./inc/header.php') ?>
@@ -13,9 +13,9 @@
                 <div class="hero-title-container">
                     <div class="full">
                         <p class="hero-title text-center">
-                        SolidStack.<span class="text-greena text-exbold">Ioc</span></p>
+                        SolidStack.<span class="text-teal text-exbold">Http</span></p>
                         <p class="text-white text-center mar10-top">
-                            Lightweight dependency injection framework for Unity.
+                            Asyncronous web request library for Unity.
                         </p>
                     </div>
                 </div>                        

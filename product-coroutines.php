@@ -8,14 +8,14 @@
 <!-- Hero -->
     <section>
         <div class="full relative product-hero">
-            <div class="full grid-vertical-align-content ioc relative">
+            <div class="full grid-vertical-align-content coroutines relative">
             <div class="bgs-outline"></div>
                 <div class="hero-title-container">
                     <div class="full">
                         <p class="hero-title text-center">
-                        SolidStack.<span class="text-greena text-exbold">Ioc</span></p>
+                        SolidStack.<span class="text-orange text-exbold">Coroutines</span></p>
                         <p class="text-white text-center mar10-top">
-                            Lightweight dependency injection framework for Unity.
+                            Run better coroutines for Unity. Provides integration between async and coroutines.
                         </p>
                     </div>
                 </div>                        

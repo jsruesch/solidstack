@@ -241,7 +241,11 @@
       line-height: 1.75rem; }
     .hero .bgs {
       background-position: 50% 50% !important;
-      background-size: 200% 200% !important; } }
+      background-size: 200% 200% !important; }
+
+  .product-hero .hero-title {
+    font-size: 2rem !important;
+    line-height: 2rem !important; } }
 /**
  * =========================================
  * Setup
@@ -826,6 +830,9 @@ html {
 
 a {
   text-decoration: none; }
+
+[data-link] {
+  cursor: pointer; }
 
 p {
   font-size: 1.2rem;
@@ -1562,6 +1569,49 @@ h1 {
     background-color: #00B0CB; }
   .back-to-top img {
     height: 12px; }
+
+.product-hero {
+  margin-top: 60px;
+  background: white;
+  background: radial-gradient(circle, white 0%, #ceefff 100%);
+  border-bottom: 5px solid #00B0CB; }
+  .product-hero .hero-title-container {
+    padding: 60px;
+    position: relative; }
+  .product-hero .hero-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    color: white; }
+  .product-hero .bgs {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-dark.svg);
+    background-size: 225% auto;
+    background-position: 64% 50%;
+    opacity: .25; }
+  .product-hero .bgs-outline {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/solidstack-s-outline.svg);
+    background-size: 100% auto;
+    background-position: 64% 50%;
+    opacity: .05; }
+  .product-hero .http, .product-hero .rest, .product-hero .coroutines, .product-hero .ioc,
+  .product-hero .mvc, .product-hero .logging, .product-hero .websockets, .product-hero .localization {
+    background-position: 50% 0%; }
+    .product-hero .http:hover, .product-hero .rest:hover, .product-hero .coroutines:hover, .product-hero .ioc:hover,
+    .product-hero .mvc:hover, .product-hero .logging:hover, .product-hero .websockets:hover, .product-hero .localization:hover {
+      box-shadow: none; }
 
 /* END: Elements */
 /**

@@ -38,8 +38,7 @@ $(document).ready(function(){
   });
 });
 
-
-
+// Mobile Nav Product Accordion
 $(function() {
   var items = $(".accordion__items");
 
@@ -53,6 +52,14 @@ $(function() {
       $(this).toggleClass("active");
       $(this).next().toggleClass("open");
     }
+  });
+});
+
+// Turn Home Page Product Card Divs Into Clickable Links
+$(document).ready(function() {
+  $("[data-link]").click(function() {
+    window.location.href = $(this).attr("data-link");
+    return false;
   });
 });
 

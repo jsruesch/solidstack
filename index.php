@@ -6,8 +6,8 @@
 <?php include('./inc/header.php') ?>
 
 <!-- Hero -->
-    <section>
-        <div class="full bg-white relative hero">
+    <section class="hero">
+        <div class="full bg-white relative hero-content">
             <div class="bgs"></div>
             <div class="full grid-vertical-align-content">
                 <div class="hero-title-container">
@@ -15,7 +15,6 @@
                 Build Solid <br />
                 Architecture <br /> 
                 in Unity</p>
-        
                 <p class="hero-subtitle">Re-usable, solid architecture components for <span class="text-teal text-exbold">Unity</span> and <span class="text-teal text-exbold">C#</span></p>
             </div>                        
             </div>
@@ -57,10 +56,9 @@
                     <img src="img/graphic-architecture.svg" alt="" class="grid-image">
                 </div>
                 <div class="full pad60">
-                <p class="section-subheader text-pink mar10-bot">Enable Test-Driven Architecture</span></p>
-                <p class="text-ddblue text-bold">Unit testing games is hard. SolidStack components are built with dependency injection and interface segregation in mind, and help streamling test-driven development for your project. </p>
-                </div>
-                
+                    <p class="section-subheader text-pink mar10-bot">Enable Test-Driven Architecture</span></p>
+                    <p class="text-ddblue text-bold">Unit testing games is hard. SolidStack components are built with dependency injection and interface segregation in mind, and help streamling test-driven development for your project. </p>
+                </div>  
             </div>
         </div><!-- CLOSE .wrapper-content -->
     </section><!-- Architecture -->
@@ -96,10 +94,10 @@
                         <p class="text-mblue text-center text-bold">Our Community is growing! Become part of the OpenSource community. Check out our components on GitHub</p>
                     </div>
                     <div class="full flex-center">
-                    <a href="#0" class="btn-b">
-                        <p class="">
-                            Get Started
-                        </p>
+                        <a href="#0" class="btn-b">
+                            <p class="">
+                                Get Started
+                            </p>
                         </a>
                     </div>
                 </div>

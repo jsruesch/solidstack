@@ -1,6 +1,6 @@
 
 <!-- Change NavLink for Current Page -->
-<?php $current_page = 'product-ioc'; ?>
+<?php $current_page = 'product-logging'; ?>
 
 <!-- Header -->
 <?php include('./inc/header.php') ?>
@@ -8,14 +8,14 @@
 <!-- Hero -->
     <section>
         <div class="full relative product-hero">
-            <div class="full grid-vertical-align-content ioc relative">
+            <div class="full grid-vertical-align-content logging relative">
             <div class="bgs-outline"></div>
                 <div class="hero-title-container">
                     <div class="full">
                         <p class="hero-title text-center">
-                        SolidStack.<span class="text-greena text-exbold">Ioc</span></p>
+                        SolidStack.<span class="text-purple text-exbold">Logging</span></p>
                         <p class="text-white text-center mar10-top">
-                            Lightweight dependency injection framework for Unity.
+                            Logging library with support for multiple sources and <br/> granular control using namespace tags.
                         </p>
                     </div>
                 </div>                        

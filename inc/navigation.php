@@ -5,7 +5,7 @@
 <!-- Desktop Nav -->
    <div class="navigation-container">
       <div class="navigation-content">
-         <a href="#0"><div class="nav-logo-desktop"></div></a>
+         <a href="index.php"><div class="nav-logo-desktop"></div></a>
       
          <div class="nav-link-container">
             <?php include('nav-links.php') ?>

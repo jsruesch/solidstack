@@ -1,30 +1,27 @@
 <!-- Mvc -->
-  <div class="full product-card mvc relative">
-    <div class="bgs-outline"></div>
-    <div class="pc-content">
-      <p class="card-title text-white">
-        SolidStack.<span class="text-yellow text-exbold">Mvc</span>
+<div data-link="product-mvc.php" class="full product-card mvc relative">
+  <div class="bgs-outline"></div>
+  <div class="pc-content">
+    <p class="card-title text-white">
+      SolidStack.<span class="text-yellow text-exbold">Mvc</span>
+    </p>
+    <div class="full card-description">
+      <p class="text-white">
+        Build scalable UI with Model View Controller pattern.
       </p>
-
-      <div class="full card-description">
-        <p class="text-white">
-          Build scalable UI with Model View Controller pattern.
+    </div>
+  <!-- Buttons -->
+    <div class="full grid-2col ggap-10">
+      <a href="#0" class="full btn-a">
+        <p class="text-white text-center">
+          <i class="fab fa-github text-white"></i> Clone on Github
         </p>
-      </div>
-
-    <!-- Buttons -->
-      <div class="full grid-2col ggap-10">
-        <a href="#0" class="full btn-a">
-          <p class="text-white text-center">
-            <i class="fab fa-github text-white"></i> Clone on Github
-          </p>
-        </a>
-
-        <a href="#0" class="full btn-a">
-          <p class="text-center">
-            Install via UPM
-          </p>
-        </a>
-      </div><!-- CLOSE: Buttons -->
-    </div><!-- CLOSE: .pc-content -->
-  </div><!-- END: Mvc -->
+      </a>
+      <a href="#0" class="full btn-a">
+        <p class="text-center">
+          Install via UPM
+        </p>
+      </a>
+    </div><!-- CLOSE: Buttons -->
+  </div><!-- CLOSE: .pc-content -->
+</div><!-- END: Mvc -->
