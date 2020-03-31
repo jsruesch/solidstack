@@ -243,9 +243,11 @@
       background-position: 50% 50% !important;
       background-size: 200% 200% !important; }
 
-  .product-hero .hero-title {
-    font-size: 2rem !important;
-    line-height: 2rem !important; } }
+  .product-hero {
+    overflow: hidden; }
+    .product-hero .hero-title {
+      font-size: 2rem !important;
+      line-height: 2rem !important; } }
 /**
  * =========================================
  * Setup

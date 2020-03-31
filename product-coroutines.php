@@ -6,16 +6,16 @@
 <?php include('./inc/header.php') ?>
 
 <!-- Hero -->
-    <section>
+<section>
         <div class="full relative product-hero">
-            <div class="full grid-vertical-align-content coroutines relative">
+            <div class="full grid-vertical-align-content rest relative">
             <div class="bgs-outline"></div>
                 <div class="hero-title-container">
                     <div class="full">
                         <p class="hero-title text-center">
                         SolidStack.<span class="text-orange text-exbold">Coroutines</span></p>
                         <p class="text-white text-center mar10-top">
-                            Run better coroutines for Unity. Provides integration between async and coroutines.
+                            Communicate with your Rest Api. Supports multiple authentication methods including JWT.
                         </p>
                     </div>
                 </div>                        
