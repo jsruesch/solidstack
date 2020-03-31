@@ -1,7 +1,7 @@
 
 <div class="full">
 
-   <div class="full grid-2col-m  ggap-5 mobile-nav-grid">
+   <div class="full mobile-nav-grid">
       <a class="<?= ($current_page == 'work') ? 'navactive' : '' ?>" href="#0">
          Why SolidStack
       </a>
@@ -18,6 +18,7 @@
 
             <!-- HTTP -->
                <div class="full product-card http relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <div class="full">
                      <p class="card-title text-white">
@@ -29,6 +30,7 @@
 
             <!-- Rest -->
                <div class="full product-card rest relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-pink text-exbold">Rest</span>
@@ -38,6 +40,7 @@
 
             <!-- Coroutines -->
                <div class="full product-card coroutines relative">
+                  <div class="bgs-outline"></div>  
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-orange text-exbold">Coroutines</span>
@@ -47,6 +50,7 @@
 
             <!-- Ioc -->
                <div class="full product-card ioc relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-greena text-exbold">Ioc</span>
@@ -56,6 +60,7 @@
 
             <!-- Mvc -->
                <div class="full product-card mvc relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-yellow text-exbold">Mvc</span>
@@ -65,6 +70,7 @@
 
             <!-- Logging -->
                <div class="full product-card logging relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                         SolidStack.<span class="text-purple text-exbold">Logging</span>
@@ -74,6 +80,7 @@
 
             <!-- Websockets -->
                <div class="full product-card websockets relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-reda text-exbold">WebSockets</span>
@@ -83,6 +90,7 @@
 
             <!-- Localization -->
                <div class="full product-card localization relative">
+                  <div class="bgs-outline"></div>
                   <div class="pc-content">
                      <p class="card-title text-white">
                      SolidStack.<span class="text-bluea text-exbold">Localization</span>
@@ -90,29 +98,23 @@
                   </div><!-- CLOSE: .pc-content -->
                </div><!-- END: Localization -->
 
+            </div>
          </div>
       </div>
-      </div>
 
-      <div class="full grid-3col-m ggap-5 mobile-nav-grid">
-         
-         <div class="navlink">
-            <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-               Contribute
-            </a>
-         </div>
+      <div class="full mobile-nav-grid">
 
-         <div class="navlink">
-            <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-               Contact
-            </a>
-         </div>
+         <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?> full" href="#0">
+            Contribute
+         </a>
 
-         <div class="navlink">
-            <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-               <i class="fab fa-github"></i>
-            </a>
-         </div>
+         <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?> full" href="#0">
+            Contact
+         </a>
+
+         <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
+            <i class="fab fa-github"></i>
+         </a>
 
       </div>
 
