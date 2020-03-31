@@ -202,6 +202,72 @@
     }
   }
 
+  // Desktop Product Dropdown
+
+
+  .desktop-dropdown-container{
+    position: relative; 
+
+    .desktop-dropdown{
+      position: absolute; 
+      top: 60px;
+      left: 1px; 
+      width: 300px;
+      display: none; 
+    }
+
+    .product-card{ 
+      padding: 15px 20px !important;
+
+      .bgs{
+        background-size: 100% auto !important;
+        background-position: 50% 50% !important; 
+        opacity: .05 !important; 
+      }
+      
+      .bgs-outline{
+        background-size: 100% auto !important;
+        background-position: 50% 50% !important; 
+        opacity: .05 !important; 
+      }
+
+      &:hover{
+        cursor: pointer; 
+
+        .bgs{
+          background-size: 200% auto !important;
+          background-position: 50% 50% !important; 
+          opacity: .1 !important; 
+        }
+        
+        .bgs-outline{
+          background-size: 200% auto !important;
+          background-position: 50% 50% !important; 
+          opacity: .1 !important; 
+        }
+      } 
+    }
+
+    .card-title{ 
+      text-align: left; 
+      font-size: 1.1rem !important; 
+      line-height: 1.2rem !important;
+
+      &:hover{
+        background: none; 
+      }
+    }
+
+    &:hover{
+      .desktop-dropdown{
+        opacity: 1; 
+        display: block; 
+      }
+    }
+
+
+  }
+
   // Style of nav links on current page
   .navactive{  }
 
