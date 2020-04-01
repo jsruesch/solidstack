@@ -1,5 +1,6 @@
 
-<a href="#" class="back-to-top"><img src="img/arrow.svg"/></a>
+<!-- Back To Top Arrow Button -->
+    <a href="#" class="back-to-top"><img src="img/arrow.svg"/></a>
 
 <!-- Footer -->
     <footer class="full pad30">
@@ -8,8 +9,7 @@
 
 <div class="clear"></div>
 
-<!-- Analytics -->
-
+<!-- Dont Forget Analytics! -->
 
 </body>
 </html>

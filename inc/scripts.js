@@ -26,7 +26,6 @@ $(document).ready(function() {
   // Animate the scroll to top
   $('.back-to-top').click(function(event) {
      event.preventDefault();
-     
      $('html, body').animate({scrollTop: 0}, 300);
   })
 });
@@ -41,7 +40,6 @@ $(document).ready(function(){
 // Mobile Nav Product Accordion
 $(function() {
   var items = $(".accordion__items");
-
   items.on("click",function(){
     if($(this).hasClass("active")) {
       $(this).removeClass("active");
@@ -62,5 +60,3 @@ $(document).ready(function() {
     return false;
   });
 });
-
-// Desktop Product Dropdown

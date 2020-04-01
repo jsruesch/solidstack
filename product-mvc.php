@@ -23,25 +23,21 @@
         </div>
     </section><!-- END: Hero -->
 
-
-<!-- Applications -->
-<section class="wrapper relative bg-grad-teal-white">
+<!-- Two Column Grid Template Section -->
+    <section class="wrapper relative bg-grad-teal-white">
         <div class="bgs-outline-dark"></div>
         <div class="wrapper-content relative">
         <!-- Section Header -->
             <div class="full grid-2col div grid-vertical-align-content pad30">
-            
                 <div class="full pad60">
                     <img src="img/graphic-architecture.svg" alt="" class="grid-image">
                 </div>
-
                 <div class="full pad60">
                     <div class="full">
                         <p class="section-subheader text-teal mar10-bot">Why use Dependency Injection Framework</span></p>
                         <p class="text-ddblue text-bold">Dependency Injection ( or Dependency Inversion ) is a very important SOLID principle. It allows for decoupled architecture and weka links between components.
                         </p>
                     </div>
-
                     <div class="full mar10-top">
                         <a href="#0" class="btn-b left">
                             <p class="">
@@ -50,12 +46,9 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div><!-- CLOSE .wrapper-content -->
     </section><!-- Applications -->
-
-
 
 <!-- Contribute -->
     <section class="wrapper bg-ddblue">
@@ -81,8 +74,6 @@
             </div>
         </div>            
     </section><!-- END: Contribute -->
-
-
 
 <!-- Footer -->
 <?php include('./inc/footer.php') ?> 

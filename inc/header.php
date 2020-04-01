@@ -3,8 +3,8 @@
 <head>
 
     <title>SolidStack</title>
-    <meta name="description"
-          content="Site Decription Content">
+    <meta name="SolidStack"
+          content="SolidStack - Build solid architecture in unity. SolidStack provides tools the help you build re-usable, solid architecture components for Unity and C#.">
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>

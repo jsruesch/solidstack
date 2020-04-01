@@ -1,12 +1,12 @@
 
 <!-- Change NavLink for Current Page -->
-<?php $current_page = 'product-ioc'; ?>
+<?php $current_page = 'product-coroutines'; ?>
 
 <!-- Header -->
 <?php include('./inc/header.php') ?>
 
 <!-- Hero -->
-<section>
+    <section>
         <div class="full relative product-hero">
             <div class="full grid-vertical-align-content rest relative">
             <div class="bgs-outline"></div>
@@ -23,14 +23,12 @@
         </div>
     </section><!-- END: Hero -->
 
-
-<!-- Applications -->
-<section class="wrapper relative bg-grad-teal-white">
+<!-- Two Column Grid Template Section -->
+    <section class="wrapper relative bg-grad-teal-white">
         <div class="bgs-outline-dark"></div>
         <div class="wrapper-content relative">
         <!-- Section Header -->
             <div class="full grid-2col div grid-vertical-align-content pad30">
-            
                 <div class="full pad60">
                     <img src="img/graphic-architecture.svg" alt="" class="grid-image">
                 </div>
@@ -50,12 +48,9 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div><!-- CLOSE .wrapper-content -->
-    </section><!-- Applications -->
-
-
+    </section><!-- CLOSE .wrapper -->
 
 <!-- Contribute -->
     <section class="wrapper bg-ddblue">
@@ -81,8 +76,6 @@
             </div>
         </div>            
     </section><!-- END: Contribute -->
-
-
 
 <!-- Footer -->
 <?php include('./inc/footer.php') ?> 

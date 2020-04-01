@@ -11,7 +11,6 @@
 
 /* END: Imports */
 
-
 /**
  * =========================================
  * Global Styles
@@ -20,7 +19,6 @@
 
  * {
      margin:0; padding:0;
-
      -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
              box-sizing: border-box;
@@ -34,12 +32,10 @@
    font-family: 'Catamaran', sans-serif;
 }
 
- body{ 
- }
+ body{  }
 
  a{ 
    text-decoration: none; 
-
     &:hover{  }
   }
 
@@ -108,7 +104,6 @@
     }
 
  /* END: Utility Classes */
-
 
  /**
   * =========================================
@@ -197,14 +192,12 @@
             background: $teal;
             color: white;  
           }
-         }
+        }
       }
     }
   }
 
   // Desktop Product Dropdown
-
-
   .desktop-dropdown-container{
     position: relative; 
 
@@ -264,12 +257,25 @@
         display: block; 
       }
     }
-
-
   }
 
   // Style of nav links on current page
-  .navactive{  }
+
+  .mobile-navigtation-links-container{
+    .mobile-nav-grid{
+      .navactive{
+        background: $teal !important;
+        color: white !important; 
+      }
+    }
+  }
+  .nav-link-container{
+    .navactive{
+      background: $teal;
+      color: white !important; 
+    }
+  }
+  
 
   .mobile-visible{ display: none; }  
   
@@ -343,20 +349,20 @@
       &:hover{
         cursor: pointer; 
 
-      .bgs{
-        background-size: 200% auto !important;
-        background-position: 50% 50% !important; 
-        opacity: .1 !important; 
-      }
-      
-      .bgs-outline{
-        background-size: 200% auto !important;
-        background-position: 50% 50% !important; 
-        opacity: .1 !important; 
-      }
+        .bgs{
+          background-size: 200% auto !important;
+          background-position: 50% 50% !important; 
+          opacity: .1 !important; 
+        }
+        
+        .bgs-outline{
+          background-size: 200% auto !important;
+          background-position: 50% 50% !important; 
+          opacity: .1 !important; 
+        }
       } 
-
     }
+
     .card-title{ font-size: 1.1rem !important; line-height: 1.2rem !important;  }
    
     &__title {
@@ -383,9 +389,7 @@
       letter-spacing: .085rem;
       font-weight: 500;
       
-      &:nth-of-type(even) {
-        background-color: darken(#000,6%);
-      }
+      &:nth-of-type(even) { background-color: darken(#000,6%); }
       
       // arrow
       &:after {
@@ -401,9 +405,7 @@
         border-bottom: 2px solid $mblue;
       }
   
-      &:hover {
-        background-color: $teal;
-      }
+      &:hover { background-color: $teal; }
   
       &.active {
         background-color: white;
@@ -416,18 +418,12 @@
     }
     
     &__content {
-      // transition: 
-      //   opacity 1s ease 0.25s, 
-      //   height 0.25s ease;
       background-color: $dblue;
       height: 0;
       overflow: hidden;
       opacity: 0;
   
       &__caption {
-        //  transition: 
-        //  opacity 0.3s ease 0.3s, 
-        //  transform 0.3s ease 0.3s;
         transform: scaleY(0);
         color: #ffe;
         opacity: 0;
@@ -438,10 +434,6 @@
       }
   
       &__txt {
-        //  transition: 
-        //  opacity 0.3s ease 0.6s,
-        //  transform 0.3s ease 0.6s;
-        //  transform: scaleY(0);
         color: #a99;
         opacity: 0;
       }
@@ -487,7 +479,6 @@
     ;
   }
 
-
   .nav-link-mobile-container{ 
     @include transition; 
     display: none;
@@ -515,14 +506,14 @@
         .fa-github{ padding: 6px; }
 
         &:hover{
-            @include transition; 
-            background: $teal;
-            color: white;  
+          @include transition; 
+          background: $teal;
+          color: white;  
 
-            .fa-github{
-              @include transition; 
-              color: white; 
-            }
+          .fa-github{
+            @include transition; 
+            color: white; 
+          }
         }
       }
     }
@@ -556,9 +547,7 @@
     overflow: hidden;
     position: relative;
 
-    &:last-child {
-      margin: 0;
-    }
+    &:last-child { margin: 0; }
 
     &:before {
       content: "";
@@ -591,29 +580,8 @@
         transition-delay: 150ms;
       }
     }
-
   }
-  
-  /*
-  .menu-toggle {
-    &:hover .hamburger span {
-      &:before {
-        transform: translateX(0);
-      }
-      &:after {
-        transform: translateX(200%);
-      }
-    }
-    &.active .hamburger span {
-      &:before {
-        transform: translateX(100%);
-      }
-      &:after {
-        transform: translateX(200%);
-      }
-    }
-  }*/
-  
+
   .cross span {
     display: block;
     width: 25px;

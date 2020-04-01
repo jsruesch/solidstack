@@ -1013,6 +1013,14 @@ h1 {
     opacity: 1;
     display: block; }
 
+.mobile-navigtation-links-container .mobile-nav-grid .navactive {
+  background: #00B0CB !important;
+  color: white !important; }
+
+.nav-link-container .navactive {
+  background: #00B0CB;
+  color: white !important; }
+
 .mobile-visible {
   display: none; }
 
@@ -1256,25 +1264,6 @@ h1 {
   .hamburger span:last-child:before, .hamburger span:last-child:after {
     transition-delay: 150ms; }
 
-/*
-.menu-toggle {
-  &:hover .hamburger span {
-    &:before {
-      transform: translateX(0);
-    }
-    &:after {
-      transform: translateX(200%);
-    }
-  }
-  &.active .hamburger span {
-    &:before {
-      transform: translateX(100%);
-    }
-    &:after {
-      transform: translateX(200%);
-    }
-  }
-}*/
 .cross span {
   display: block;
   width: 25px;

@@ -1,22 +1,21 @@
-
-<ul class="navigation-links">
-
-   <li class="navlink">
-      <a class="<?= ($current_page == 'work') ? 'navactive' : '' ?>" href="#0">
-         Why SolidStack
-      </a>
-   </li>
-   
-   <li class="navlink">
-      <a class="<?= ($current_page == 'about') ? 'navactive' : '' ?>" href="#0">
-         Docs
-      </a>
-   </li>
+<!-- Nav Links for Desktop -->
+   <ul class="navigation-links">
+      <li class="navlink">
+         <a class="<?= ($current_page == 'why-solidstack') ? 'navactive' : '' ?>" href="#0">
+            Why SolidStack
+         </a>
+      </li>
+      
+      <li class="navlink">
+         <a class="<?= ($current_page == 'docs') ? 'navactive' : '' ?>" href="#0">
+            Docs
+         </a>
+      </li>
 
    <!-- Products Dropdown -->
-   <li class="navlink desktop-dropdown-container">
-      <a class="dropdown" href="#">Products</a>
-      <div class="desktop-dropdown">      
+      <li class="navlink desktop-dropdown-container">
+         <a class="dropdown" href="#">Products</a>
+         <div class="desktop-dropdown">      
          <!-- HTTP -->
             <div data-link="product-http.php" class="full product-card http relative">
                <div class="bgs-outline"></div>
@@ -98,30 +97,27 @@
                   </p>
                </div><!-- CLOSE: .pc-content -->
             </div><!-- END: Localization -->
-      </div>
-   </li>
+         </div><!-- CLOSE: Desktop Dropdown -->
+      </li>
 
+      <li class="navlink">
+         <a class="<?= ($current_page == 'contribute') ? 'navactive' : '' ?>" href="#0">
+            Contribute
+         </a>
+      </li>
 
-   <li class="navlink">
-      <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-         Contribute
-      </a>
-   </li>
+      <li class="navlink">
+         <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
+            Contact
+         </a>
+      </li>
 
-   <li class="navlink">
-      <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-         Contact
-      </a>
-   </li>
+      <li class="navlink">
+         <a class="<?= ($current_page == 'github') ? 'navactive' : '' ?>" href="#0">
+            <i class="fab fa-github"></i>
+         </a>
+      </li>
 
-   <li class="navlink">
-      <a class="<?= ($current_page == 'contact') ? 'navactive' : '' ?>" href="#0">
-         <i class="fab fa-github"></i>
-      </a>
-   </li>
-
-</ul>
-
-<!-- Product Dropdown Content -->
+   </ul>
 
 

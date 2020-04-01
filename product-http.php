@@ -23,9 +23,8 @@
         </div>
     </section><!-- END: Hero -->
 
-
-<!-- Applications -->
-<section class="wrapper relative bg-grad-teal-white">
+<!-- Two Column Grid Template Section -->
+    <section class="wrapper relative bg-grad-teal-white">
         <div class="bgs-outline-dark"></div>
         <div class="wrapper-content relative">
         <!-- Section Header -->
@@ -53,9 +52,7 @@
 
             </div>
         </div><!-- CLOSE .wrapper-content -->
-    </section><!-- Applications -->
-
-
+    </section><!-- CLOSE .wrapper -->
 
 <!-- Contribute -->
     <section class="wrapper bg-ddblue">
@@ -81,8 +78,6 @@
             </div>
         </div>            
     </section><!-- END: Contribute -->
-
-
-
+    
 <!-- Footer -->
 <?php include('./inc/footer.php') ?> 
